@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: Kubernetes Minikube Cluster
-  namespace: prometheus
+  namespace: prometheus2
   releaseName: release-${infra.kubernetes.infraId}
